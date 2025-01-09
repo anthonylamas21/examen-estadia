@@ -60,10 +60,12 @@ El frontend incluye las siguientes funcionalidades:
    php artisan migrate --seed
    ```
 5. Iniciar el servidor de desarrollo:
+
    ```bash
    php artisan serve
    ```
-
+6. Importar el archivo de la db
+ 
 ### Frontend (Angular)
 1. Instalar dependencias con `npm install`.
 2. Configurar el archivo `environment.ts` con la URL del backend.
