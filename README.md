@@ -28,11 +28,12 @@ El backend del sistema proporciona las siguientes funcionalidades:
 ### Frontend (Angular)
 
 El frontend incluye las siguientes funcionalidades:
-<!-- 
+
 - **Página de Inicio:**
   - Información general sobre el sistema.
   - Calendario de disponibilidad de espacios.
 
+<!-- Falto el desarollo
 - **Formulario de Reservaciones:**
   - Permite a los usuarios seleccionar un espacio, una fecha y un horario para realizar una reservación.
 
@@ -72,8 +73,9 @@ El frontend incluye las siguientes funcionalidades:
    ```
 
 ## Uso del Sistema
-<!--
+
 1. Acceder a la página de inicio para consultar la disponibilidad de espacios.
+<!-- Falto el desarrollo del front
 2. Registrar o iniciar sesión como usuario.
 3. Realizar una reservación seleccionando un espacio, fecha y horario disponible.
 4. Consultar y gestionar las reservaciones desde el tablero de usuario.
