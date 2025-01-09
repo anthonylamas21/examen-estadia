@@ -1,0 +1,25 @@
+<h2>Dar de alta un Espacio</h2>
+<form [formGroup]="espacioForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="nombre">Nombre:</label>
+    <input id="nombre" formControlName="nombre" />
+    <div *ngIf="espacioForm.get('nombre')?.invalid && espacioForm.get('nombre')?.touched">
+      El nombre es obligatorio y debe tener máximo 255 caracteres.
+    </div>
+  </div>
+
+  <div>
+    <label for="capacidad">Capacidad:</label>
+    <input id="capacidad" type="number" formControlName="capacidad" />
+    <div *ngIf="espacioForm.get('capacidad')?.invalid && espacioForm.get('capacidad')?.touched">
+      La capacidad es obligatoria y debe ser un número positivo.
+    </div>
+  </div>
+
+  <div>
+    <label for="disponibilidad">Disponibilidad:</label>
+    <input id="disponibilidad" type="checkbox" formControlName="disponibilidad" />
+  </div>
+
+  <button type="submit" [disabled]="espacioForm.invalid">Crear Espacio</button>
+</form>
